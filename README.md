@@ -22,12 +22,12 @@ It is designed with secure handling of credentials and provides a smooth experie
 ## Project Structure
 
 MarksCalculatorSystem/
-├─ src/ # Java source code
-├─ lib/ # MySQL Connector/J jar
-├─ bin/ # Compiled class files (generated after compilation)
-├─ student_info.txt # Local backup file (auto-generated)
-├─ config.properties # Database credentials (ignored in Git)
-└─ .gitignore # Excludes sensitive and unnecessary files from Git
+==>  src/ # Java source code
+==>  lib/ # MySQL Connector/J jar
+==>  bin/ # Compiled class files (generated after compilation)
+==>  student_info.txt # Local backup file (auto-generated)
+==>  config.properties # Database credentials (ignored in Git)
+==>  .gitignore # Excludes sensitive and unnecessary files from Git
 
 
 ---
