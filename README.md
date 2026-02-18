@@ -21,13 +21,24 @@ It is designed with secure handling of credentials and provides a smooth experie
 
 ## Project Structure
 
-MarksCalculatorSystem
-src/ # Java source code
-lib/ # MySQL Connector/J jar
-bin/ # Compiled class files (generated after compilation)
-student_info.txt # Local backup file (auto-generated)
-config.properties # Database credentials (ignored in Git)
-.gitignore # Excludes sensitive and unnecessary files from Git
+- **src/**  
+  Contains all the Java source code files for the Marks Calculator System.
+
+- **lib/**  
+  Holds the MySQL Connector/J `.jar` file required for database connectivity.
+
+- **bin/**  
+  Contains compiled `.class` files after building the project.
+
+- **student_info.txt**  
+  Auto-generated local backup file that stores student information in sync with the database.
+
+- **config.properties**  
+  Stores database credentials (`db.url`, `db.user`, `db.pass`).  
+  **Note:** This file is ignored by Git for security reasons.
+
+- **.gitignore**  
+  Lists files and folders to be excluded from Git, such as sensitive files and compiled classes.
 
 
 ---
